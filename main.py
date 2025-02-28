@@ -41,7 +41,7 @@ col_right.dataframe(df)
 
 tab_vis.subheader("Vergleich der Lebenserwartung ausgewählter Länder im Zeitverlauf")
 
-selected_countries = tab_vis.multiselect(label="Wählen Sie ein Land aus", options=df.country.unique(), default=["Turkey", "Syria", "Greece"])
+selected_countries = tab_vis.multiselect(label="Wählen Sie ein Land aus", options=df.country.unique(), default=["Germany", "Angola", "China"])
 
 # tab_vis.write(selected_countries)
 
