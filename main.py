@@ -12,7 +12,7 @@ def get_data():
     return df
 
 def get_model():
-    model = joblib.load("euroTech/gapminder_model.joblib")
+    model = joblib.load("gapminder_model.joblib")
     return model
 
 st.header("👩‍⚕️:red[Prognose] der :red[Lebenserwartung]👨‍⚕️")
@@ -27,7 +27,7 @@ col_left.subheader("Wer war Hans Rosling?")
 col_left.markdown("**Hans Rosling** wurde 1948 in Uppsala, Schweden, geboren. Er war nicht nur Arzt und Professor für internationale Gesundheit, sondern auch ein charismatischer Redner, der mit seinen öffentlichen Vorträgen Millionen von Menschen begeisterte. Als Berater für die Weltgesundheitsorganisation (WHO) und UNICEF setzte er sich für globale Gesundheitsfragen ein. Zudem war er Mitbegründer von Ärzte ohne Grenzen in der Schweiz sowie der Gapminder-Stiftung, die sich der Vermittlung von Daten und Fakten über die Welt verschrieben hat. Seine TED-Talks wurden über 35 Millionen Mal angesehen, und das *Time Magazine* zählte ihn zu den 100 einflussreichsten Persönlichkeiten der Welt. Die letzten zehn Jahre seines Lebens widmete er dem Schreiben seines Buches *Factfulness*, das noch heute große Bedeutung hat. Hans Rosling verstarb 2017, doch sein Erbe lebt weiter und inspiriert Menschen weltweit.
 ")
 
-col_left.image("euroTech/Media/hans_rosling.png")
+col_left.image("hans_rosling.png")
 col.left.markdown("https://media.eagereyes.org/wp-content/uploads/2017/02/hans-rosling-tc14.jpg")
 
 
